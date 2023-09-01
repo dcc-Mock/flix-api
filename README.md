@@ -1,14 +1,13 @@
-# FlixDB
+# Flix API
 
 This repository contains static JSON data that's served up through My JSON Server as a read-only REST API. 
 
-db.json contains an object whose properties become endpoints at `my-json-server/typicode.com/dCC-Mock/api`. 
-These properties can be arrays of objects, and their objects can be accessed through a detail endpoint (get-by-id) via an id field.
+db.json holds an object with a movies property, containing an array of movie objects. This "movies" property becomes a GET endpoint via My JSON Server.
 
-## Movies
-This endpoint contains an array of supplemental data for the Movies API, used in the React tutorial series.
+## /movies
+These endpoints contains an array of supplemental data for the Movies API, used in the React tutorial series.
 
-**GET**: `my-json-server.typicode.com/dCC-Mock/api/movies`
+**GET**: `my-json-server.typicode.com/dCC-Mock/flix-api/movies`
 ```
 [
   {
@@ -25,7 +24,7 @@ This endpoint contains an array of supplemental data for the Movies API, used in
 ]
 ```
 
-**GET**: `my-json-server.typicode.com/dCC-Mock/api/movies/The Dark Knight`
+**GET**: `my-json-server.typicode.com/dCC-Mock/flix-api/movies/The Dark Knight`
 ```
 {
   "id": "The Dark Knight",
