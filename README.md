@@ -2,10 +2,9 @@
 
 This repository contains static JSON data that's served up through My JSON Server as a read-only REST API. 
 
-db.json holds an object with a movies property, containing an array of movie objects. This "movies" property becomes a GET endpoint via My JSON Server.
+db.json holds an object with a movies property, containing an array of movie objects. This "movies" property becomes a GET endpoint via My JSON Server. The Flix API endpoints return supplemental data for the Movies API, used in the React tutorial series.
 
 ## /movies
-These endpoints contains an array of supplemental data for the Movies API, used in the React tutorial series. 
 
 The movies endpoint contains data for the following movies:
 - The Dark Knight
