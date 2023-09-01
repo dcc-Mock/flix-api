@@ -45,8 +45,9 @@ Response:
 
 ### Detail
 
-Response:
 **GET**: `my-json-server.typicode.com/dCC-Mock/flix-api/movies/The Dark Knight`
+
+Response:
 ```
 {
   "id": "The Dark Knight",
