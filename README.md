@@ -7,6 +7,7 @@ db.json holds an object with a movies property, containing an array of movie obj
 ## /movies
 These endpoints contains an array of supplemental data for the Movies API, used in the React tutorial series.
 
+###Collection
 **GET**: `my-json-server.typicode.com/dCC-Mock/flix-api/movies`
 ```
 [
@@ -24,6 +25,7 @@ These endpoints contains an array of supplemental data for the Movies API, used 
 ]
 ```
 
+###Detail
 **GET**: `my-json-server.typicode.com/dCC-Mock/flix-api/movies/The Dark Knight`
 ```
 {
