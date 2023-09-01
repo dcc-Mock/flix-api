@@ -5,7 +5,23 @@ This repository contains static JSON data that's served up through My JSON Serve
 db.json holds an object with a movies property, containing an array of movie objects. This "movies" property becomes a GET endpoint via My JSON Server.
 
 ## /movies
-These endpoints contains an array of supplemental data for the Movies API, used in the React tutorial series.
+These endpoints contains an array of supplemental data for the Movies API, used in the React tutorial series. 
+
+The movies endpoint contains data for the following movies:
+- The Dark Knight
+- Inception
+- Interstellar
+- The Shawshank Redemption
+- The Godfather
+- The Matrix
+- Avatar
+- Titanic
+- The Avengers
+- The Terminator
+- Star Wars: A New Hope
+- Jaws
+- Fight Club
+- Schindler's List
 
 ### Collection
 
@@ -36,18 +52,4 @@ These endpoints contains an array of supplemental data for the Movies API, used 
 }
 ```
 
-The movies endpoint contains the following movies:
-- The Dark Knight
-- Inception
-- Interstellar
-- The Shawshank Redemption
-- The Godfather
-- The Matrix
-- Avatar
-- Titanic
-- The Avengers
-- The Terminator
-- Star Wars: A New Hope
-- Jaws
-- Fight Club
-- Schindler's List
+
