@@ -1,6 +1,6 @@
-# Flix API
+# FlixDB API
 
-This repository contains static JSON data that's served up through My JSON Server as a read-only REST API. 
+This repository contains static JSON data that's served up through My JSON Server as a read-only API. 
 
 db.json holds an object with a movies property, containing an array of movie objects. This "movies" property becomes a GET endpoint via My JSON Server. The Flix API endpoints return supplemental data for the Movies API, used in the React tutorial series.
 
