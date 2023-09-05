@@ -24,7 +24,7 @@ The movies endpoint contains data for the following movies:
 
 ### Collection
 
-**GET**: `http://my-json-server.typicode.com/dCC-Mock/flix-api/movies`
+**GET**: `http://my-json-server.typicode.com/dCC-Mock/flixdb-api/movies`
 
 Response:
 ```
@@ -45,7 +45,7 @@ Response:
 
 ### Detail
 
-**GET**: `http://my-json-server.typicode.com/dCC-Mock/flix-api/movies/The Dark Knight`
+**GET**: `http://my-json-server.typicode.com/dCC-Mock/flixdb-api/movies/The Dark Knight`
 
 Response:
 ```
